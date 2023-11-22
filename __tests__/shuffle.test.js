@@ -11,6 +11,6 @@ describe("shuffle should...", () => {
     const inputArray = ['apple', 'banana', 'orange', 'grape'];
     const result = shuffle(inputArray);
     expect(result).toHaveLength(inputArray.length);
-  })
+  });
 
 });
